@@ -5,7 +5,9 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
   return (
     <>
       <Head>{/* <link rel="icon" href="/favicon.ico" /> */}</Head>
-      <header>header</header>
+      <header>
+        <i className="ic-alert"></i>header
+      </header>
       <main>{children}</main>
       <footer>footer</footer>
     </>

@@ -1,9 +1,8 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-}
+/* constants */
+@import "/styles/constants/colors";
+@import "/styles/constants/typography";
 
-* {
-  box-sizing: border-box;
-}
+/* base */
+@import "/styles/base/fonts";
+@import "/styles/base/normalize";
+@import "/styles/base/reset";
