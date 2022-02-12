@@ -1,0 +1,104 @@
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "cosmo" !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ic-prev:before {
+  content: "\e900";
+}
+.ic-right:before {
+  content: "\e901";
+}
+.ic-bell:before {
+  content: "\e902";
+}
+.ic-bookmark:before {
+  content: "\e903";
+}
+.ic-point:before {
+  content: "\e904";
+}
+.ic-chevron-down:before {
+  content: "\e905";
+}
+.ic-chevron-left:before {
+  content: "\e906";
+}
+.ic-chevron-right:before {
+  content: "\e907";
+}
+.ic-chevron-up:before {
+  content: "\e91d";
+}
+.ic-chevrons-left:before {
+  content: "\e908";
+}
+.ic-chevrons-right:before {
+  content: "\e909";
+}
+.ic-write:before {
+  content: "\e90a";
+}
+.ic-revise:before {
+  content: "\e90b";
+}
+.ic-page:before {
+  content: "\e90c";
+}
+.ic-filter:before {
+  content: "\e90d";
+}
+.ic-github:before {
+  content: "\e90e";
+}
+.ic-heart:before {
+  content: "\e90f";
+}
+.ic-help:before {
+  content: "\e910";
+}
+.ic-info:before {
+  content: "\e911";
+}
+.ic-log-out:before {
+  content: "\e912";
+}
+.ic-mail:before {
+  content: "\e913";
+}
+.ic-menu:before {
+  content: "\e914";
+}
+.ic-search:before {
+  content: "\e915";
+}
+.ic-settings:before {
+  content: "\e916";
+}
+.ic-smile:before {
+  content: "\e917";
+}
+.ic-star:before {
+  content: "\e918";
+}
+.ic-like:before {
+  content: "\e919";
+}
+.ic-trash:before {
+  content: "\e91a";
+}
+.ic-user:before {
+  content: "\e91b";
+}
+.ic-exit:before {
+  content: "\e91c";
+}

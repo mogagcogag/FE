@@ -1,0 +1,67 @@
+.login {
+  @include column-flexbox;
+  width: 100%;
+  padding: 60px 50px;
+  max-width: 500px;
+  margin: 0 auto;
+
+  &-logo {
+    img {
+      display: block;
+      width: auto;
+      height: 100px;
+    }
+    margin-bottom: 32px;
+  }
+
+  .login-desc {
+    margin-bottom: 32px;
+  }
+
+  .login-title {
+    font-size: 30px;
+    color: $primary;
+    line-height: 43px;
+    margin: 16px 0;
+  }
+
+  .login-form {
+    width: 100%;
+    position: relative;
+  }
+
+  .form-input {
+    margin-bottom: 16px;
+  }
+
+  .option-group {
+    @include flexbox(between);
+    margin-bottom: 16px;
+  }
+
+  .form-checkbox {
+    margin-right: 4px;
+  }
+
+  .find-pw-container {
+    a:hover {
+      opacity: 0.5;
+    }
+  }
+
+  .login-btn-container {
+    margin-bottom: 16px;
+  }
+
+  .login-btn {
+    width: 100%;
+  }
+
+  .login-signup-link {
+    text-decoration: underline;
+
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+}

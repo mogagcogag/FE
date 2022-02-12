@@ -1,0 +1,72 @@
+.global-header {
+  width: 100%;
+  height: $gnb-height-sm;
+
+  .gnb {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+
+  @include responsive(T) {
+    height: $gnb-height-md;
+  }
+}
+
+.gnb {
+  position: relative;
+  border-bottom: 1px solid $border;
+  background-color: $blue-light;
+
+  &-wrapper {
+    @include flexbox(between);
+    height: $gnb-height-sm;
+
+    @include responsive(T) {
+      height: $gnb-height-md;
+    }
+  }
+
+  &-icon-btn {
+    @include flexbox;
+    width: 32px;
+    height: 32px;
+
+    i {
+      font-size: 24px;
+      color: $secondary;
+    }
+  }
+
+  &-logo {
+    @include pos-center;
+    a {
+      display: block;
+    }
+
+    img {
+      display: block;
+      width: auto;
+      height: 40px;
+    }
+  }
+
+  &-right {
+    .btn-group {
+      @include flexbox(end);
+    }
+  }
+
+  /* Tablet */
+  @include responsive(T) {
+    &-logo {
+      position: static;
+      transform: none;
+    }
+  }
+
+  .gnb-btn-write {
+    margin-right: 4px;
+  }
+}
