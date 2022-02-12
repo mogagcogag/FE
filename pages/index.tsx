@@ -8,8 +8,13 @@ const Home = ({ allPostsData }: { allPostsData: {}[] }) => {
       <Head>
         <title>COSMO | 코딩 스터디 모임</title>
       </Head>
-      <section>section</section>
-      <section>posts</section>
+
+      <section>
+        <h2 className="visually-hidden">카테고리</h2>
+      </section>
+      <section>
+        <h2 className="visually-hidden">모집글목록</h2>
+      </section>
     </Layout>
   );
 };

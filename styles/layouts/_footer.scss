@@ -1,0 +1,44 @@
+.global-footer {
+  padding-top: 32px;
+  padding-bottom: 40px;
+  background-color: $background;
+
+  &-title {
+    @include text-style(13, $dark);
+    font-weight: 700;
+
+    .ic-chevron-right {
+      font-size: 12px;
+    }
+  }
+
+  &-contact {
+    @include text-style(24, $dark);
+    font-weight: 700;
+  }
+
+  &-time {
+    @include text-style(12, $primary);
+    margin-bottom: 24px;
+  }
+
+  &-details {
+    font-size: 10px;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    color: $secondary;
+  }
+
+  &-detail {
+    @include flexbox(start);
+
+    address {
+      display: inline;
+    }
+
+    dt::after {
+      margin-right: 2px;
+      content: ":";
+    }
+  }
+}
