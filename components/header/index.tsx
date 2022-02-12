@@ -28,21 +28,29 @@ const Header = () => {
 
                 <div className="gnb-right">
                   <div className="btn-group">
-                    <button
-                      type="button"
-                      aria-label="모집하기"
-                      className="sm-hidden btn-40 btn-primary gnb-btn-write"
-                    >
-                      모집하기
-                    </button>
+                    <Link href="/write">
+                      <a>
+                        <button
+                          type="button"
+                          aria-label="모집하기"
+                          className="sm-hidden btn-40 btn-primary gnb-btn-write"
+                        >
+                          모집하기
+                        </button>
+                      </a>
+                    </Link>
 
-                    <button
-                      type="button"
-                      aria-label="로그인"
-                      className="sm-hidden btn-40 btn-primary"
-                    >
-                      로그인
-                    </button>
+                    <Link href="/login">
+                      <a>
+                        <button
+                          type="button"
+                          aria-label="로그인"
+                          className="sm-hidden btn-40 btn-primary"
+                        >
+                          로그인
+                        </button>
+                      </a>
+                    </Link>
 
                     <Link href="/write">
                       <a className="sm-only gnb-icon-btn" aria-label="모집하기">

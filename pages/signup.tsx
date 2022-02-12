@@ -1,15 +1,15 @@
 import Layout from "../components/layout";
 import Head from "next/head";
 
-const Write = () => {
+const Signup = () => {
   return (
     <Layout>
       <Head>
-        <title>모집하기 | COSMO</title>
+        <title>회원가입 | COSMO</title>
       </Head>
-      모집하기
+      회원가입
     </Layout>
   );
 };
 
-export default Write;
+export default Signup;
