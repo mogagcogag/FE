@@ -54,6 +54,23 @@ const Signup = () => {
                       className="form-input"
                       placeholder="비밀번호 확인"
                     />
+
+                    <div className="select-group">
+                      <select className="form-select" id="select-dev-position">
+                        <option value="">개발 포지션(선택)</option>
+                        <option value="1">백엔드 개발자</option>
+                        <option value="2">프론트엔드 개발자</option>
+                        <option value="3">웹 개발자</option>
+                        <option value="4">앱 개발자</option>
+                        <option value="5">DevOps / 시스템 관리자</option>
+                        <option value="6">네트워크 관리자</option>
+                        <option value="7">데이터 엔지니어</option>
+                        <option value="8">웹 퍼블리셔</option>
+                        <option value="9">블록체인 플랫폼 엔지니어</option>
+                        <option value="10">크로스플랫폼 앱 개발자</option>
+                      </select>
+                      <i className="ic-chevron-down" aria-hidden></i>
+                    </div>
                   </div>
 
                   <div className="agree-group">
