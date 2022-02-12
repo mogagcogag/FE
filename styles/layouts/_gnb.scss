@@ -1,0 +1,39 @@
+.gnb {
+  position: relative;
+  border-bottom: 1px solid $border;
+
+  &-wrapper {
+    @include flexbox(between);
+    height: 50px;
+  }
+
+  &-icon-btn {
+    @include flexbox;
+    width: 32px;
+    height: 32px;
+
+    i {
+      font-size: 24px;
+      color: $secondary;
+    }
+  }
+
+  &-logo {
+    @include pos-center;
+    s a {
+      display: block;
+    }
+
+    img {
+      display: block;
+      width: auto;
+      height: 30px;
+    }
+  }
+
+  &-right {
+    .btn-group {
+      @include flexbox(end);
+    }
+  }
+}

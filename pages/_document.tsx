@@ -7,7 +7,7 @@ class MyDocument extends Document {
         <Head>
           <link
             rel="stylesheet"
-            href="https://i.icomoon.io/public/temp/169a19544b/UntitledProject/style.css"
+            href="https://i.icomoon.io/public/temp/ea739d8fc7/UntitledProject/style.css"
           />
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link

@@ -24,7 +24,7 @@
  * max-container-size .... 1140px
  *
 */
-@use 'sass:math';
+@use "sass:math";
 
 $gutter: 20px;
 
@@ -49,13 +49,13 @@ $lg-max-container: ($lg-unit + $gutter) * $lg-columns;
     flex-wrap: wrap; // 자식 기둥의 너비를 고정시키기 위함
   }
 
-  [class^='col-'] {
+  [class^="col-"] {
     padding: 0 (math.div($gutter, 2));
   }
 
   @for $i from 1 through $sm-columns {
     .col-sm-#{$i} {
-      width: percentage(math.div($i, $md-columns));
+      width: percentage(math.div($md-columns, $i));
     }
   }
 
