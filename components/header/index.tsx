@@ -30,7 +30,7 @@ const Header = () => {
                   <button
                     type="button"
                     aria-label="모집하기"
-                    className="sm-hidden btn-40 btn-primary"
+                    className="sm-hidden btn-40 btn-primary gnb-btn-write"
                   >
                     모집하기
                   </button>
@@ -54,7 +54,7 @@ const Header = () => {
                   </button> */}
                 </div>
 
-                <nav className="gnb-nav sm-hidden">
+                {/* <nav className="gnb-nav sm-hidden">
                   <h2 className="visually-hidden">메뉴</h2>
                   <ul className="gnb-nav-list">
                     <li className="gnb-nav-item">
@@ -79,7 +79,7 @@ const Header = () => {
                       </button>
                     </li>
                   </ul>
-                </nav>
+                </nav> */}
               </div>
             </div>
           </div>

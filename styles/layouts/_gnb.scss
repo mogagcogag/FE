@@ -27,7 +27,7 @@
     img {
       display: block;
       width: auto;
-      height: 30px;
+      height: 40px;
     }
   }
 
@@ -35,5 +35,17 @@
     .btn-group {
       @include flexbox(end);
     }
+  }
+
+  /* Tablet */
+  @include responsive(T) {
+    &-logo {
+      position: static;
+      transform: none;
+    }
+  }
+
+  .gnb-btn-write {
+    margin-right: 4px;
   }
 }
