@@ -1,3 +1,19 @@
+.global-header {
+  width: 100%;
+  height: $gnb-height-sm;
+
+  .gnb {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+
+  @include responsive(T) {
+    height: $gnb-height-md;
+  }
+}
+
 .gnb {
   position: relative;
   border-bottom: 1px solid $border;
@@ -5,7 +21,11 @@
 
   &-wrapper {
     @include flexbox(between);
-    height: 50px;
+    height: $gnb-height-sm;
+
+    @include responsive(T) {
+      height: $gnb-height-md;
+    }
   }
 
   &-icon-btn {
