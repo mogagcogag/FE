@@ -14,21 +14,21 @@
 .btn-primary {
   @extend %btn-base;
   color: $white;
-  background-color: $green;
+  background-color: $blue;
   transition: background-color 200ms ease-in-out;
 
   // btn-state
   &:hover {
-    background-color: $red;
+    background-color: $blue-dark;
   }
 
   &:disabled:hover {
-    background-color: $green;
+    background-color: $blue;
   }
 }
 
 // .btn-primary:not(:disabled):hover {
-//   background-color: $green;
+//   background-color: $blue;
 // }
 
 .btn-secondary {
@@ -49,20 +49,20 @@
 
 .btn-outlined {
   @extend %btn-base;
-  color: $green;
+  color: $blue;
   background-color: $white;
-  border: 1px solid $green;
+  border: 1px solid $blue;
   transition: background-color 200ms ease-in-out;
 
   // btn-state
   &:hover {
-    background-color: $green;
+    background-color: $blue;
     color: $white;
   }
 
   &:disabled:hover {
     background-color: $white;
-    color: $green;
+    color: $blue;
   }
 }
 
