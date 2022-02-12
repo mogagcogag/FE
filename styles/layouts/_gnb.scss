@@ -1,6 +1,7 @@
 .gnb {
   position: relative;
   border-bottom: 1px solid $border;
+  background-color: $blue-light;
 
   &-wrapper {
     @include flexbox(between);

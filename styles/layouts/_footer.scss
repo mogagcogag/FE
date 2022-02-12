@@ -1,7 +1,7 @@
 .global-footer {
   padding-top: 32px;
   padding-bottom: 40px;
-  background-color: $background;
+  background-color: $blue-light;
 
   &-title {
     @include text-style(13, $dark);
@@ -39,6 +39,31 @@
     dt::after {
       margin-right: 2px;
       content: ":";
+    }
+  }
+
+  @include responsive(D) {
+    &-title {
+      @include text-style(14);
+    }
+
+    &-contact:hover {
+      opacity: 0.5;
+    }
+
+    &-details {
+      @include flexbox(start);
+    }
+
+    &-detail {
+      a:hover {
+        text-decoration: underline;
+      }
+
+      &:not(:last-child)::after {
+        margin: 0 8px;
+        content: "|";
+      }
     }
   }
 }

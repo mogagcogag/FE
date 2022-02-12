@@ -23,14 +23,13 @@ const Footer = () => {
               </div>
               <div className="global-footer-detail">
                 {" "}
-                <dt>이메일</dt>
+                <dt>이메일(제휴문의)</dt>
                 <dd>
                   <address>
                     <Link href="mailto:singularity29@kakao.com">
                       <a>singularity29@kakao.com</a>
                     </Link>
                   </address>
-                  (제휴문의)
                 </dd>
               </div>
               <div className="global-footer-detail">
