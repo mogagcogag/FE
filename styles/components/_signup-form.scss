@@ -1,4 +1,4 @@
-.login {
+.signup {
   @include column-flexbox;
   width: 100%;
   padding: 60px 50px;
@@ -25,16 +25,30 @@
     margin: 16px 0;
   }
 
-  .login-form {
+  &-form {
     width: 100%;
     position: relative;
   }
 
   .form-input {
-    margin-bottom: 16px;
+    margin-bottom: 12px;
   }
 
-  .option-group {
+  .email {
+    @include flexbox;
+    margin-bottom: 12px;
+
+    .form-input {
+      margin-bottom: 0;
+    }
+
+    .auth-email-btn {
+      min-width: max-content;
+      margin-left: 8px;
+    }
+  }
+
+  .agree-group {
     @include flexbox(between);
     margin-bottom: 16px;
   }
@@ -43,25 +57,19 @@
     margin-right: 4px;
   }
 
-  .find-pw-container {
-    a:hover {
-      opacity: 0.5;
-    }
-  }
-
-  .login-btn-container {
-    margin-bottom: 16px;
-  }
-
-  .login-btn {
-    width: 100%;
-  }
-
-  .login-signup-link {
+  .service-content-link {
     text-decoration: underline;
 
     &:hover {
       opacity: 0.5;
     }
+  }
+
+  &-btn-container {
+    margin-bottom: 16px;
+  }
+
+  &-btn {
+    width: 100%;
   }
 }
